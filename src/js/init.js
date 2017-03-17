@@ -459,13 +459,6 @@ function loadAll() {
   a = setData([sheetData.physical, sheetData.social, sheetData.mental], 'attr', '.attributes');
   promises.push(a);
 
-
-  a = setData([sheetData.virtues], 'virtue', '.virtues');
-  promises.push(a);
-
-  a = loadProps(sheetData.numina, 'numina', 'numina', '.numina');
-  promises.push(a);
-
   a = loadProps(sheetData.backgrounds, 'background', 'background', '.backgrounds');
   promises.push(a);
 

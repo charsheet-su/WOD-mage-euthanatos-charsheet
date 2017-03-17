@@ -19,12 +19,17 @@
     text-align: center;
 }
 
-.numina, .backgrounds, .virtues {
-    width: 33.3%;
+.backgrounds {
     display: inline-block;
     vertical-align: top;
 }
 
+div.advantage-col
+{
+    width: 33.3%;
+    display: inline-block;
+    vertical-align: top;
+}
 .background_name {
     font-family: "Goudy Old Style";
     font-size: 18px;
@@ -78,7 +83,6 @@
 }
 
 .humanity_willpower_container, .other_traits_container, .health_exp_container {
-    width: 33.3%;
     text-align: center;
     display: inline-block;
     vertical-align: top;
