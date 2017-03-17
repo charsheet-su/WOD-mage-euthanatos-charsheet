@@ -57,7 +57,7 @@ Of cause, for saving and loading your character sheet data you will need
  to publish your repository on [Charsheet.su](http://charsheet.su)
 and use it's api - but you will be able to develop without it.
 
-##Getting started:
+## Getting started:
 
 1. Clone \ Fork this project
 2. Run `npm install` to install all dependencies
@@ -66,11 +66,11 @@ and use it's api - but you will be able to develop without it.
 5. Edit any HTML, JS and CSS from `/src`!
 6. Please send me new versions :)
 
-##Code quality
+## Code quality
 
 Please use ESLint with configuration in `.eslintrc.json`.
 
-##FAQ:    
+## FAQ:    
 
 Q: Why do you use images instead of backgrounds?   
 A: Because otherwise browsers don't allow to print background.   
