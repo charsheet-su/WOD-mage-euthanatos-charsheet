@@ -1,7 +1,7 @@
 {
-  "name": "charsheet-mortal",
+  "name": "charsheet-mage-euthanatos",
   "version": "0.0.1",
-  "description": "Charsheet.su - character sheet for mortal",
+  "description": "Charsheet.su - character sheet for mage euthanatos",
   "keywords": [
     "mortal",
     "wod"
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jehy/WOD-Mortal-charsheet"
+    "url": "https://github.com/jehy/WOD-mage-euthanatos-charsheet"
   },
   "author": "Jehy",
   "license": "MIT",
