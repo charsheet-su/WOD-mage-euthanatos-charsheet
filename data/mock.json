@@ -25,6 +25,7 @@
   "Self-Control": "3",
   "health[0]": "X",
   "experience": "2",
+  "essence": "Primordial",
   "Willpower": "6",
   "Willpower_current": "1",
   "trait_name[0]": "Artistic Expression",
@@ -67,8 +68,10 @@
   "demeanor": "Survivor",
   "concept": "\u0431\u043e\u043c\u0436",
   "age": "12",
-  "sex": "F",
-  "residence": "Omsk",
+  "sex": "M",
+  "cabal": "gopniks",
+  "faction": "Yum Cimil",
   "numina_name[0]": "Alchemy",
-  "numina_value[0]": "5"
+  "numina_value[0]": "5",
+  "Entropy": "5"
 }

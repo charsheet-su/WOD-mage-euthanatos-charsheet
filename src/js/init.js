@@ -322,8 +322,8 @@ function setEditableFields() {
   });
 
   // init simple editables which do not require params
-  const e = ['nature', 'demeanor', 'age', 'derangements', 'languages', 'languages', 'allies', 'influence', 'contacts-major',
-    'mentor', 'residence', 'concept', 'chronicle', 'player_name', 'char_name', 'fame', 'status', 'resources',
+  const e = ['nature', 'essence', 'demeanor', 'faction', 'age', 'derangements', 'languages', 'languages', 'allies', 'influence', 'contacts-major',
+    'mentor', 'cabal', 'concept', 'chronicle', 'player_name', 'char_name', 'fame', 'status', 'resources',
     'contacts-minor', 'other1_name', 'other2_name', 'other1_value', 'other2_value', 'gear', 'equipment', 'vehicles',
     'misc', 'residence_details', 'prelude', 'goals', 'description', 'date_of_birth', 'place_of_birth', 'apparent_age',
     'hair', 'eyes', 'nationality', 'race', 'height', 'weight'];
@@ -451,6 +451,9 @@ function loadAll() {
   let promises = [];
 
   let a = setData([sheetData.talents, sheetData.skills, sheetData.knowledges], 'abl', '.abilities');
+  promises.push(a);
+
+  a = setData([sheetData.spheres], 'sphere', '.spheres');
   promises.push(a);
 
   a = setData([sheetData.physical, sheetData.social, sheetData.mental], 'attr', '.attributes');

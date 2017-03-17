@@ -1,14 +1,14 @@
-# WOD-Mortal-charsheet
+# WOD-Mage-Euthanatos-charsheet
 
 [![Build Status](https://travis-ci.org/jehy/WOD-Mortal-charsheet.svg?branch=master)](https://travis-ci.org/jehy/WOD-Mortal-charsheet)
 [![dependencies Status](https://david-dm.org/jehy/WOD-Mortal-charsheet/status.svg)](https://david-dm.org/jehy/WOD-Mortal-charsheet)
 [![devDependencies Status](https://david-dm.org/jehy/WOD-Mortal-charsheet/dev-status.svg)](https://david-dm.org/jehy/WOD-Mortal-charsheet?type=dev)
 
-It is the first character sheet, created for [Charsheet.su](http://charsheet.su).   
+It is Mage Euthanatos character sheet, created for [Charsheet.su](http://charsheet.su).   
 It is based on wonderful [Mr Gone's character sheets](http://mrgone.rocksolidshells.com/) 
  so credit for design goes to him.
 
-##What I used for this character sheet:
+## What I used for this character sheet:
 
 - JQuery   
 - Bootstrap 3   
@@ -18,12 +18,19 @@ It is based on wonderful [Mr Gone's character sheets](http://mrgone.rocksolidshe
 Latest version is built using Node.js, gulp, broserify and babel. If you don`t know
 Node.js, you can make your own sheet in simple HTML, CSS and JS.
 
-Version of this sheet without node.js can be found 
-[here](https://github.com/jehy/WOD-Mortal-charsheet/tree/feature/no-node).
 You are free to fork this repository, make pull requests and
 make new character sheets - of cause, those will be added to web site.
 
-##Contents of the project:
+## Extracting useful images from pdf
+If you want to use cool images and backgrounds from other character sheets, that's easy:
+```bash
+yum install poppler-utils
+pdfimages ./some.pdf
+yum install ImageMagick
+convert *.ppm *.png
+```
+
+## Contents of the project:
 * `/src` contains source code and css of th project
 * `/lib` contains built and minified version of code (after you build it)
 * `data` - folder for json files which contain data for this sheet -

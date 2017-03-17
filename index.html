@@ -9,46 +9,40 @@
 <body>
 <div class="list-align">
     <div class="list"><img src="img/back_big.png" class="bg-image">
-
+        <img src="img/title-back.png" class="title-image">
+        <img src="img/euthanatos-title-2.png" class="list-title">
+        <img src="img/back-image.png" class="list-bg">
         <div class="list-inner">
-            <div class="main-header">MORTALS</div>
             <div class="props">
                 <div class="prop">Name:
                 </div>
                 <div class="prop_value"><span data-name="char_name" data-type="text" data-pk="1"
                                               data-title="Enter name"></span>
                 </div>
-
-
                 <div class="prop">Nature:
                 </div>
                 <div class="prop_value">
             <span data-name="nature" data-type="select" data-value="5" data-pk="1"
                   data-title="Select nature"></span>
                 </div>
-
-
-                <div class="prop">Age:
+                <div class="prop">Faction:
                 </div>
-                <div class="prop_value"><span data-name="age" data-type="text" data-title="Enter age"
+                <div class="prop_value"><span data-name="faction" data-type="select" data-value=""
+                                              data-title="Enter faction"
                                               data-pk="1"></span></div>
-
-
                 <div class="prop">Player:
                 </div>
                 <div class="prop_value"><span data-name="player_name" data-type="text" data-pk="1"
                                               data-title="Enter name"></span></div>
-
-                <div class="prop">Demeanor:
+                <div class="prop">Essence:
                 </div>
-                <div class="prop_value">
-            <span data-name="demeanor" data-type="select" data-value="5" data-pk="1"
-                  data-title="Select Demeanor"></span></div>
-
-                <div class="prop">Sex:
+                <div class="prop_value"><span data-name="essence" data-type="select" data-value="" data-pk="1"
+                                              data-title="Select essence"></span></div>
+                <div class="prop">Concept:
                 </div>
-                <div class="prop_value"><span data-name="sex" data-type="select" data-value="" data-pk="1"
-                                              data-title="Select sex"></span></div>
+                <div class="prop_value"><span data-name="concept" data-type="text" data-pk="1"
+                                              data-title="Enter concept"></span>
+                </div>
 
                 <div class="prop">Chronicle:
                 </div>
@@ -56,16 +50,16 @@
                                               data-pk="1"></span>
                 </div>
 
-                <div class="prop">Concept:
+                <div class="prop">Demeanor:
                 </div>
-                <div class="prop_value"><span data-name="concept" data-type="text" data-pk="1"
-                                              data-title="Enter concept"></span>
-                </div>
+                <div class="prop_value">
+            <span data-name="demeanor" data-type="select" data-value="5" data-pk="1"
+                  data-title="Select Demeanor"></span></div>
 
-                <div class="prop">Residence:
+                <div class="prop">Cabal:
                 </div>
-                <div class="prop_value"><span data-name="residence" data-type="text" data-pk="1"
-                                              data-title="Enter residence"></span>
+                <div class="prop_value"><span data-name="cabal" data-type="text" data-pk="1"
+                                              data-title="Enter cabal"></span>
                 </div>
             </div>
             <div class="header-sub-placeholder">
@@ -100,9 +94,18 @@
                 <img src="img/h1_bg_big.png" class="header-sub-img">
 
                 <div class="header-sub-bg"><img src="img/whitepx.gif" width="150px"></div>
-                <div class="header-sub"><span>Advantages</span></div>
+                <div class="header-sub"><span>Spheres</span></div>
             </div>
 
+            <div class="spheres">
+            </div>
+
+            <div class="header-sub-placeholder">
+                <img src="img/h1_bg_big.png" class="header-sub-img">
+
+                <div class="header-sub-bg"><img src="img/whitepx.gif" width="150px"></div>
+                <div class="header-sub"><span>Advantages</span></div>
+            </div>
             <div class="prop-header-nobg"><span>Numina</span></div>
             <div class="prop-header-nobg"><span>Backgrounds</span></div>
             <div class="prop-header-nobg"><span>Virtues</span></div>
@@ -570,13 +573,27 @@
                 <div class="header-sub"><span>Description</span></div>
             </div>
             <div class="description1">
+                <div class="descr_name">Age</div>
+                <div class="descr_value"><span data-emptyclass="" data-name="age" data-type="text" data-pk="1"
+                                               data-placeholder="age"
+                                               data-title="Enter age" data-emptytext="None"></span>
+                </div>
+
                 <div class="descr_name">Apparent age</div>
-                <div class="descr_value"><span data-emptyclass="" data-name="apparent_age" data-type="text" data-pk="1"
+                <div class="descr_value"><span data-emptyclass="" data-name="apparent_age" data-type="text"
+                                               data-pk="1"
                                                data-placeholder="apparent age"
                                                data-title="Enter apparent age" data-emptytext="None"></span>
                 </div>
+                <div class="descr_name">Sex</div>
+                <div class="descr_value"><span data-emptyclass="" data-name="sex" data-type="select" data-pk="1"
+                                               data-placeholder="Select sex"
+                                               data-title="Enter sex" data-emptytext="None"></span>
+                </div>
+
                 <div class="descr_name">Date of birth</div>
-                <div class="descr_value"><span data-emptyclass="" data-name="date_of_birth" data-type="text" data-pk="1"
+                <div class="descr_value"><span data-emptyclass="" data-name="date_of_birth" data-type="text"
+                                               data-pk="1"
                                                data-placeholder="date of birth"
                                                data-title="Enter date of birth" data-emptytext="None"></span>
                 </div>
@@ -602,7 +619,8 @@
                                                data-title="Enter race" data-emptytext="None"></span>
                 </div>
                 <div class="descr_name">Nationality</div>
-                <div class="descr_value"><span data-emptyclass="" data-name="nationality" data-type="text" data-pk="1"
+                <div class="descr_value"><span data-emptyclass="" data-name="nationality" data-type="text"
+                                               data-pk="1"
                                                data-placeholder="nationality"
                                                data-title="Enter nationality" data-emptytext="None"></span>
                 </div>
@@ -617,7 +635,8 @@
                                                data-title="Enter weight" data-emptytext="None"></span>
                 </div>
             </div>
-            <div class="description2"><span data-emptyclass="" data-name="description" data-type="textarea" data-pk="1"
+            <div class="description2"><span data-emptyclass="" data-name="description" data-type="textarea"
+                                            data-pk="1"
                                             data-placeholder="description"
                                             data-title="Enter full description" data-emptytext="None"></span>
             </div>

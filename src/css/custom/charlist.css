@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family: "Percolator expert";
+    font-family: "Visitation";
     src: url("../../../fonts/Percolator-expert.otf");
 }
 
@@ -13,21 +13,45 @@
     src: url("../../../fonts/Goudy-Old-Style-Regular.ttf");
 }
 
-.bg-image
-{
+@font-face {
+    font-family: "Visitation";
+    src: url("../../../fonts/visitation.ttf");
+}
+
+.list-title {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 164px;
+    text-transform: uppercase;
+    font-size: 50px;
+    width: 410px;
+}
+
+.title-image {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    height: 57px;
+    left: 154px;
+    width: 428px;
+}
+
+.list-bg {
+    position: absolute;
+    top: 300px;
+    width: 650px;
+    left: 50px;
+}
+
+.bg-image {
     width: 100%;
 }
 
-.main-header {
-    font-family: Percolator;
-    text-align: center;
-    font-size: 40px;
-}
-
 .header-sub {
-    font-family: "Percolator expert";
+    font-family: "Visitation";
     text-align: center;
-    font-size: 28px;
+    font-size: 22px;
     position: absolute;
     top: 0px;
     width: 100%;
@@ -57,8 +81,8 @@
 }
 
 .header-lit {
-    font-family: "Percolator expert";
-    font-size: 20px;
+    font-family: "Visitation";
+    font-size: 16px;
     text-align: left;
     line-height: 30px;
 }
@@ -69,13 +93,13 @@
     display: inline-block;
     line-height: 1;
     position: relative;
-    margin-top:30px;
+    margin-top: 30px;
 }
 
 .list-inner {
     padding-left: 60px;
     padding-right: 55px;
-    padding-top: 60px;
+    padding-top: 80px;
 
     font-size: 0; /* to avoid margins for inline divs*/
     position: absolute;
@@ -132,18 +156,18 @@ body {
 }
 
 .prop-header {
-    font-family: "Percolator expert";
+    font-family: "Visitation";
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
     position: absolute;
     top: 0px;
     width: 100%;
 }
 
 .prop-header-nobg {
-    font-family: "Percolator expert";
+    font-family: "Visitation";
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
     width: 33.3%;
     display: inline-block;
 }

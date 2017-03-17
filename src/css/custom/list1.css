@@ -162,11 +162,11 @@
 }
 
 .prop {
-    font-family: "Percolator expert";
+    font-family: "Visitation";
     display: inline-block;
     width: 14%;
     text-align: left;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 22px;
 }
 
@@ -192,6 +192,23 @@
 }
 
 .attr_value {
+    line-height: 20px;
+    display: inline-block;
+    width: 16.6%;
+    vertical-align: top;
+}
+
+.sphere {
+    font-family: "Goudy Old Style";
+    display: inline-block;
+    width: 16.6%;
+    text-align: left;
+    font-size: 18px;
+    line-height: 20px;
+    vertical-align: top;
+}
+
+.sphere_value {
     line-height: 20px;
     display: inline-block;
     width: 16.6%;
