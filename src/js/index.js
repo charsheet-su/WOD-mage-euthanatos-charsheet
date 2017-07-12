@@ -3,7 +3,6 @@ const $ = require('jquery');
 window.$ = $;
 window.jQuery = $;
 require('bootstrap');
-
 require('./images');
 require('./jquery.barrating');
 require('./init');
