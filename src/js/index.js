@@ -27,8 +27,7 @@ require('./init');
 
 require('./x-editable/bootstrap-datetimepicker');
 require('./x-editable/bootstrap-editable');
-// require('./x-editable/jquery-ui-1.10.3.custom');
 require('jquery-ui');
 require('moment');
 require('select2');
-require('./x-editable/typeahead');
+require('typeahead.js');
