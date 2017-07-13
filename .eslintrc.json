@@ -10,6 +10,12 @@
     "promise"
   ],
   "rules": {
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
     "one-var": "off",
     "indent": "off",
     "padded-blocks": "off",
