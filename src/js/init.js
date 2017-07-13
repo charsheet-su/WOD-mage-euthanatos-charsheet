@@ -446,6 +446,7 @@ function loadUseful() {
 
 
 function loadAll() {
+  console.log('loading defaults');
   loadingPannel.show();
   setEditableFields();
   let promises = [];
@@ -477,6 +478,7 @@ function loadAll() {
 
   // when all settings are loaded, we load charsheet data:
   Promise.all(promises).then(() => {
+    console.log('loading saved data');
     promises = [];
     a = loadSaved();
     promises.push(a);
@@ -567,5 +569,6 @@ window.sendDots = sendDots;
 window.loadSaved = loadSaved;
 
 $(document).ready(() => {
+  console.log('document ready!');
   loadAll();
 });
