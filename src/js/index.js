@@ -5,13 +5,15 @@ import '../css/custom/list2.css';
 import '../css/custom/list3.css';
 import '../css/custom/list4.css';
 import '../css/custom/print.css';
+
 import '../css/x-editable/bootstrap-editable.css';
 import '../css/x-editable/datetimepicker.css';
-import '../../node_modules/select2/dist/css/select2.css';
 import '../css/x-editable/select2-bootstrap.css';
 import '../css/x-editable/typeahead.js-bootstrap.css';
+
 import '../../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../../node_modules/bootstrap/dist/css/bootstrap-theme.css';
+import '../../node_modules/select2/dist/css/select2.css';
 
 const $ = require('jquery');
 
@@ -25,7 +27,8 @@ require('./init');
 
 require('./x-editable/bootstrap-datetimepicker');
 require('./x-editable/bootstrap-editable');
-require('./x-editable/jquery-ui-1.10.3.custom');
+// require('./x-editable/jquery-ui-1.10.3.custom');
+require('jquery-ui');
 require('moment');
 require('select2');
 require('./x-editable/typeahead');
