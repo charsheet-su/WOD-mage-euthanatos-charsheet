@@ -6,13 +6,14 @@ import '../css/custom/list3.css';
 import '../css/custom/list4.css';
 import '../css/custom/print.css';
 
-import '../css/x-editable/bootstrap-editable.css';
-import '../css/x-editable/datetimepicker.css';
-import '../css/x-editable/select2-bootstrap.css';
-import '../css/x-editable/typeahead.js-bootstrap.css';
+import '../../node_modules/x-editable/dist/bootstrap3-editable/css/bootstrap-editable.css';
+import '../../node_modules/x-editable/src/inputs/datetime/bootstrap-datetimepicker/css/datetimepicker.css';
+import '../../node_modules/x-editable/src/inputs/select2/lib/select2-bootstrap.css';
+import '../../node_modules/x-editable/dist/inputs-ext/typeaheadjs/lib/typeahead.js-bootstrap.css';
 
 import '../../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../../node_modules/bootstrap/dist/css/bootstrap-theme.css';
+
 import '../../node_modules/select2/dist/css/select2.css';
 
 const $ = require('jquery');
@@ -25,8 +26,9 @@ require('./jquery.barrating');
 require('./init');
 
 
-require('./x-editable/bootstrap-datetimepicker');
-require('./x-editable/bootstrap-editable');
+require('x-editable/src/inputs/datetime/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js');
+require('x-editable/dist/bootstrap3-editable/js/bootstrap-editable');
+
 require('jquery-ui');
 require('moment');
 require('select2');

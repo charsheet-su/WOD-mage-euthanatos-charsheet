@@ -8,8 +8,10 @@ const path                 = require('path'),
 
 module.exports = {
   entry: './src/js/index.js',
+  devtool: 'source-map',
+  cache: true,
   plugins: [
-    new webpack.ContextReplacementPlugin(/moment[\\\/]locale$/, /^\.\/(ru|en)$/), // https://github.com/webpack/webpack/issues/87
+    new webpack.ContextReplacementPlugin(/moment[\\/]locale$/, /^\.\/(ru|en)$/), // https://github.com/webpack/webpack/issues/87
     new BundleAnalyzerPlugin({analyzerMode: 'static', openAnalyzer: false}),
     new ExtractTextPlugin('styles.css'),
     new webpack.LoaderOptionsPlugin({
@@ -26,6 +28,7 @@ module.exports = {
         screw_ie8: true,
       },
       comments: false,
+      sourceMap: true,
     }),
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
