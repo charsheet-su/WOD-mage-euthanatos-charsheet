@@ -7,9 +7,9 @@
     "wod"
   ],
   "scripts": {
-    "lint": "./node_modules/eslint/bin/eslint.js ./src/js/images.js ./src/js/index.js ./src/js/init.js ./src/js/mode.js",
-    "build-dev": "webpack --env=dev --progress --profile --colors",
-    "build": "webpack --env=prod --progress --profile --colors",
+    "lint": "node ./node_modules/eslint/bin/eslint.js ./src/js/images.js ./src/js/index.js ./src/js/init.js ./src/js/mode.js",
+    "build-dev": "node ./node_modules/webpack/bin/webpack.js --env=dev --progress --profile --colors",
+    "build": "node ./node_modules/webpack/bin/webpack.js --env=prod --progress --profile --colors",
     "prepublish": "npm run build",
     "test": "npm run build-dev && npm run lint",
     "update-dev": "git pull origin master && npm run build-dev && chown charsheet:charsheet . -R",
