@@ -4,6 +4,8 @@
 [![dependencies Status](https://david-dm.org/jehy/WOD-mage-euthanatos-charsheet/status.svg)](https://david-dm.org/jehy/WOD-mage-euthanatos-charsheet)
 [![devDependencies Status](https://david-dm.org/jehy/WOD-mage-euthanatos-charsheet/dev-status.svg)](https://david-dm.org/jehy/WOD-mage-euthanatos-charsheet?type=dev)
 
+![screenshot](screenshot.png)
+
 It is Mage Euthanatos character sheet, created for [Charsheet.su](http://charsheet.su).   
 It is based on wonderful [Mr Gone's character sheets](http://mrgone.rocksolidshells.com/) 
  so credit for design goes to him.
